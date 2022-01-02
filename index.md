@@ -2,15 +2,15 @@
 
 This GitHub page will be used to store the submission records and experience notes of chapter's learning and training on LeetCode. You can also visit [my GitHub home page](https://github.com/Septerxy).
 
-### Easy
+## Easy
 
-## No.1
+### No.1
 
-#Title
+**Title**
 ```
-**两数之和**
+两数之和
 ```
-#Answer
+**Answer**
 ```
 class Solution {
 public:
@@ -30,17 +30,17 @@ public:
     }
 };
 ```
-#Note
+**Note**
 ```
 test
 ```
 
-### Medium
+## Medium
 
-### Difficult
+## Difficult
 
 
-### MoreInfo
+## MoreInfo
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
