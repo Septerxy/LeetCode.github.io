@@ -1,31 +1,46 @@
-## Welcome to GitHub Pages
+## Welcome to Septer's LeetCode Note
 
-You can use the [editor on GitHub](https://github.com/Septerxy/LeetCode.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This GitHub page will be used to store the submission records and experience notes of chapter's learning and training on LeetCode. You can also visit [my GitHub home page](https://github.com/Septerxy).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Easy
 
-### Markdown
+## No.1
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#Title
+```
+**两数之和**
+```
+#Answer
+```
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        vector<int> res;
+        for(int i=0;i<nums.size();i++)
+        {
+            for(int j=i+1;(j<nums.size())&&(j!=i);j++)
+                if(nums[i]+nums[j]==target)
+                {
+                    res.push_back(i);
+                    res.push_back(j);
+                    break;
+                }
+        }
+        return res;
+    }
+};
+```
+#Note
+```
+test
 ```
 
+### Medium
+
+### Difficult
+
+
+### MoreInfo
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
